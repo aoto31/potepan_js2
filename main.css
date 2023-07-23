@@ -20,6 +20,8 @@ input{
     width: 300px;
     background-color: #000;
     text-align:right;
+    color: #FFFFFF;
+    
 }
 input:focus{
     outline: blue 1px solid;

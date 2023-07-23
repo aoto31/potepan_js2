@@ -9,8 +9,10 @@ function get_calc(btn){
         }else if (btn.value == "/"){
             btn.value="/";
         }
+        
+        console.log("BtnValue=" + btn.value);
         document.dentaku.display.value += btn.value;
-        document.dentaku.multi_btn.value="*";
-        document.dentaku.div_btn.value="/";
+//        document.dentaku.display.value="*";
+//        document.dentaku.display.value="/";
     }
 }
