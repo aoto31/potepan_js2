@@ -12,9 +12,9 @@ function get_calc(btn){
     }else{
         // displayの最後の文字が+,-,*./ のいずれかかチェック
         console.log("display2  = " + document.dentaku.display.value.slice(-1));
-        if ("+-*/".includes(document.dentaku.display.value.slice(-1))) {
+        if ("+-*/.".includes(document.dentaku.display.value.slice(-1))) {
             // btn.valueが+,-,*./ のいずれかかチェック
-            if ("+-*/".includes(btn.value)) {
+            if ("+-*/.".includes(btn.value)) {
                 // displayの最後の文字をbtn.valueの値で書換える
                 document.dentaku.display.value.replace(/.$/,btn.value);
             // 上記以外(整数か".")
